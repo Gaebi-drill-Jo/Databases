@@ -1,6 +1,7 @@
 CREATE TABLE User (
     User_ID INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50),
+    useremail VARCHAR(50),
     userpassword VARCHAR(100),
     create_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
